@@ -8,6 +8,14 @@ body {
     margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
+#photo-caption-1{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 20;
+  color: white;
+  font-size: 24px;
+}
 .image-bg-fluid-height,
 .image-bg-fixed-height {
     text-align: center;
@@ -18,8 +26,8 @@ body {
 }
 
 .image-bg-fluid-height {
-	background: url("../images/fireworks.png") no-repeat center center scroll;
-    padding: 100px 0;
+	background: url("../images/2015UK/DSC05635.JPG") no-repeat center center scroll;
+    height: 450px;
 }
 
 .image-bg-fixed-height {
