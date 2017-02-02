@@ -1,3 +1,22 @@
 div#header-links{
   float: right;
 }
+.slider-size{
+  height: 400px;
+}
+
+.carousel{
+  width: 100%;
+  }
+
+#carousel-example-generic{
+  margin: 100px auto 30px;
+}
+
+#carousel-1{
+  margin: 30px auto 30px;
+}
+
+#carousel-2{
+  margin: 20px auto 30px;
+}
