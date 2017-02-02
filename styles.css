@@ -21,8 +21,11 @@ div#header-links{
   margin: 20px auto 30px;
 }
 
-@media only screen and (max-device-width: 480px) {
-  #carousel-example-generic {margin: 0px}
+@media only screen and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2)
+ {
+  #carousel-example-generic {margin: -70px auto}
 
   #carousel-1{
     margin: 20px auto 20px;
